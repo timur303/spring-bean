@@ -1,5 +1,8 @@
 package peaksoft;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
+@Qualifier("helloworld")
 public class HelloWorld {
 
     private String message;
